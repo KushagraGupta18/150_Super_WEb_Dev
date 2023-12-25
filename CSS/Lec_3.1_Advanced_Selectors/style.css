@@ -1,0 +1,37 @@
+/* Descendent Combinators */
+
+div p strong{
+    color:red;
+}
+
+p strong{
+    color:purple;
+}
+
+ul li a[href="http://google.com"]{
+    color:green;
+}
+
+
+/* Child Combinators */
+
+ol > li{
+    border-top: 3px solid palevioletred;
+}
+
+
+/* Adjacent sibiling combinators */
+
+h4+p{
+    background-color: lightgreen;
+}
+
+div+p{
+    background-color: aqua;
+}
+
+/* General Sibiling combinator */
+
+section  div~ p{
+    text-decoration: line-through;
+}

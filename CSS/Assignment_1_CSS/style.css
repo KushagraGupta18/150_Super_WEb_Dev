@@ -1,0 +1,19 @@
+div{
+    border:3px solid black;
+    background-color: turquoise;
+    height:40px;
+    position:sticky;
+    top:0px;
+    width:100%;
+}
+ul{
+    border: 3px dashed black;
+    
+}
+li::before{
+    content:"\260E";
+    color:blue;
+}
+*{
+    background-color:rgba(100,100,100,0.1);
+}

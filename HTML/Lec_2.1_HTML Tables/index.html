@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML Tables</h1>
+    <table bgcolor="lightgrey" border="5" cellspacing="10" cellpadding="10">            <!-- we should not write this inside the table because we can do further in css-->
+        <!-- Table head -->
+        <thead>
+            <tr> <!--table row-->
+                <th>Day/periods</th>  <!--table cells-->
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+            </tr>
+        </thead>
+        <!-- Table body -->
+        <tbody>
+            <tr>
+                <td>Mon</td>         <!--table cells-->
+                <td>Eng</td>
+                <td>sci</td>
+                <td>Hin</td>
+            </tr>
+            <tr>
+                <td>Tue</td>         <!--table cells-->
+                <td>Gam</td>
+                <td>EVS</td>
+                <td>San</td>
+            </tr>
+            <tr>
+                <td>Wed</td>         <!--table cells-->
+                <td>Hin</td>
+                <td>Eng</td>
+                <td>Mat</td>
+            </tr>
+        </tbody>
+        <!-- Table foot-->
+        <tfoot>
+            <th colspan="4">This is class VIII Time Table</th>
+        </tfoot>
+    </table>
+    <br>
+    <br>
+    <table bgcolor="lightgrey" border="5" cellspacing="10" cellpadding="10">            <!-- we should not write this inside the table because we can do further in css-->
+        <!-- Table head -->
+        <thead>
+            <tr> <!--table row-->
+                <th>Day/periods</th>  <!--table cells-->
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+            </tr>
+        </thead>
+        <!-- Table body -->
+        <tbody>
+            <tr>
+                <td>Mon</td>         <!--table cells-->
+                <td colspan="2">Eng</td>
+                <td>Hin</td>
+            </tr>
+            <tr>
+                <td>Tue</td>         <!--table cells-->
+                <td>Gam</td>
+                <td>EVS</td>
+                <td rowspan="2">Mat</td>
+            </tr>
+            <tr>
+                <td>Wed</td>         <!--table cells-->
+                <td>Hin</td>
+                <td>Eng</td>
+            </tr>
+        </tbody>
+        <!-- Table foot-->
+        <tfoot>
+            <th colspan="4">This is class VIII Time Table</th>
+        </tfoot>
+    </table>
+</body>
+</html>

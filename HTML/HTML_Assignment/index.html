@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment1</title>
+</head>
+<body>
+    <h1>Class X Time Table</h1>
+    <table border="5" bgcolor="lightgrey" cellspacing="10" cellpadding="10">
+        <thead>
+            <tr>
+                <th>Day/Period</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th> </th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mon</td>
+                <td rowspan="2">SST</td>
+                <td>Yog</td>
+                <td rowspan="3">sans</td>
+                <td>com</td>
+                <td rowspan="6">Lun</td>
+                <td rowspan="6">Eng</td>
+                <td rowspan="6">Hin</td>
+                <td rowspan="6">Sci</td>
+                <td rowspan="4">Mat</td>
+            </tr>
+            <tr>
+                <td>Tue</td>
+                <td>Com</td>
+                <td rowspan="2">Mat</td>
+            </tr>
+            <tr>
+                <td>Wed</td>
+                <td>MPT</td>
+                <td>Ger</td>
+            </tr>
+            <tr>
+                <td>Thu</td>
+                <td rowspan="2">SST</td>
+                <td>Gam</td>
+                <td>Gam</td>
+                <td>Art</td>
+            </tr>
+            <tr>
+                <td>Fri</td>
+                <td>Ger</td>
+                <td>supw</td>
+                <td rowspan="2">Mat</td>
+                <td>Lib</td>
+            </tr>
+            <tr>
+                <td>Sat</td>
+                <td colspan="2">CCA</td>
+                <td>Art</td>
+                <td>SST</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="10">This is Class X Time Table</th>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <h1>Forms</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="Salutation">Salutation</label>
+            <select name="Salutation" id="Salutation">
+                <option>--None--</option>
+                <option>Mr.</option>
+                <option>Ms.</option>
+                <option>Mrs.</option>
+                <option>Dr.</option>
+                <option>Prof.</option>
+            </select>
+            
+            <br>
+            <br>
+            <label for="firstname">First name:</label>
+            <input type="text" id="firstname" name="firstname" required>
+            <br>
+            <br>
+            <label for="lastname">Last name:</label>
+            <input type="text" id="lastname" name="lastname" required>
+            <br>
+            <br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="gender">
+            Male
+            <input type="radio" name="gender" id="gender">
+            Female
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <br>
+            <br>
+            <label for="dob">Date Of Birth:</label>
+            <input type="date" id="dob" required>
+            <br>
+            <br>
+            <label for="text">Address:</label>
+            <br>
+            <textarea cols="30" rows="4"></textarea>
+            <br><br>
+            <button>Submit</button>
+        </fieldset>
+        
+    </form>
+
+</body>
+</html>

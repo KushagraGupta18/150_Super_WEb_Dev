@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>HTML Forms</h1>
+    <form>
+        <label for="username">Username</label>
+        <input type="text" placeholder="username" id="username" name="username" required>         <!--Required is used for we can't submit form without filling Username-->
+        <br>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" placeholder="password" id="password" name="password" required>      <!--Required is used for we can't submit form without filling password-->
+        <br>
+        <br>
+        <button>Submit</button>
+    </form>
+    <br>
+    <br>
+    <form action="#" method="GET">
+        <label for="Username">Username</label>
+        <input type="text" id="Username" name="username">
+        <br>
+        <br>
+        <label for="Password">Password</label>
+        <input type="password" id="Password" name="password">
+        <br>
+        <br>
+        <button>Submit</button>
+    </form>
+
+
+    <br>
+    <br>
+    <form action="/" method="POST">
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username">
+            <br>
+            <br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+            <br>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Education</legend>
+            <label for="file">Marksheet</label>
+            <input type="file" name="file" id="file">
+        </fieldset>
+        <button>submit</button>
+    </form>
+</body>
+</html>
