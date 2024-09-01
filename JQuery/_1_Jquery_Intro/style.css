@@ -1,0 +1,23 @@
+.first{
+    color:indigo;
+}
+
+.second{
+    background-color: crimson;
+}
+
+.third{
+    border:2px solid #F9DC5C;
+}
+
+.kush{
+    font-size:80px;
+}
+
+
+#container{
+    background-color: aqua;
+    width:100px;
+    height:100px;
+
+}

@@ -90,3 +90,64 @@
 // for (let i in car) {    
 //     console.log(`${i}--->${car[i]}`);
 // }
+
+
+//for loop
+for(let i=0;i<=5;i++){
+    for(let j=0;j<=5;j++){
+        if(i==j){
+            break;
+        }
+        console.log(i , j)
+    }
+}
+
+
+//while loop
+let a=100;
+while(a>=0){
+    console.log(a);
+    a-=10;
+}
+
+//for-in loop(object)
+
+let person={
+    name:'kush',
+    age:21,
+    isMale:'true'
+}
+//in case of objects for of loop gives error it shows we cant iterate objects
+for(let item in person){
+    // console.log(item);//it will give me keys
+    // console.log(this.item);//it will give undefined
+    // console.log(`${item}--->${person[item]}`);
+    console.log(`${item}---> ${person[item]}`)
+
+}
+
+//for-of loop(array,map,list,vector)
+
+let arr=['kush','gupta',10,90];
+for(let item of arr){
+    console.log(item);
+}
+
+//as array is also an object so we can use for in loop in which item gives us keys and for accessing values we use ${arr[item]}
+for(let item in arr){
+    console.log(`${arr[item]}`);
+}
+
+
+
+let car={
+    name:'mercedes',
+    color:'blue',
+    title:function(){
+        return `this is name ${this.name} and color is ${this.color}`
+    }
+}
+console.log(car.title())
+for(let item in car){
+    console.log(`${item}--->${car[item]}`);
+}

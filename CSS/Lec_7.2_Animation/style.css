@@ -12,7 +12,7 @@ section{
 
 
     /* Shorthand property of animation */
-    animation: 3s 1s 3 alternate forwards slider;
+    animation: 3s 1s 2 alternate forwards slider;
 }
 
 @keyframes slider{

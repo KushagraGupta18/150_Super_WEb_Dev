@@ -11,6 +11,7 @@ section p{
     font-family: 'Source Code Pro', monospace;
     line-height: 5rem;
     font-style: italic;
+    font-weight: 150;
     letter-spacing: 0.1em;
 }
 /* h1{
@@ -25,7 +26,7 @@ h1{
     font-style: italic;
     text-align: center;
     color:white;
-    /* text-shadow: -5px -5px 2px red, 8px 8px 1px blue; */
+    /* text-shadow: -5px -5px 5px red, 8px 8px 5px blue; */
     text-shadow: 0 1px 0 #ccc,
                0 2px 0 #c9c9c9,
                0 3px 0 #bbb,

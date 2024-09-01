@@ -17,7 +17,7 @@ nav{
     top:0px;
     box-shadow: 0px 0px 2px rgb(104,104,104);
 
-    z-index: 10;
+    z-index: 1;
 
 }
 
@@ -54,9 +54,13 @@ li{
 
 /* Navbar CSS End here */
 
+
+
+
+
 section{
     width: 75vw;
-    margin:50px auto;
+    margin:60px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;

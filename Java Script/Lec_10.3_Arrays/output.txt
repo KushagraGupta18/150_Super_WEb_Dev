@@ -63,7 +63,7 @@ colors
 (6) ['Blue', 'Orange', 'Green', 'Brown', 'White', 'Purple']
 colors.slice(2)
 (4) ['Green', 'Brown', 'White', 'Purple']
-colors.slice(2,5);
+colors.slice(2,5);//starting and ending index .   ei is not included
 (3) ['Green', 'Brown', 'White']
 
 
@@ -103,6 +103,9 @@ undefined
 arr.join('-->')
 '1-->2-->3-->4-->5-->6-->7'
 
+let arr2=['http:', '', 'youtube.com', 'coding-block', 'myvideo.mp4']
+arr2.join('/');
+'http://youtube.com/coding-block/myvideo.mp4'
 
 
 concat() ==============
@@ -139,8 +142,17 @@ const fruits = ['Apple','Guava','Oranges'];
 undefined
 fruits.includes('Apple')
 true
+fruits.includes('App')
+false
+
 fruits.includes('Grapes')
 false
+
+//in case of string 
+str='kush';
+str.includes('ku');
+true
+
 
 indexOf =======================
 
@@ -149,8 +161,12 @@ fruits
 fruits.indexOf('Guava')
 1
 fruits.indexOf('Litchi')
--1
+-1(does not exist)
 
+
+str='kush'
+str.indexOf('k)
+0
 
 reverse() ======================
 

@@ -1,4 +1,4 @@
-*{
+/* *{
     margin:0px;
     padding:0px;
 }
@@ -7,13 +7,13 @@ nav{
     position: fixed;
     width:100%;
 }
-a{
+ a{
     text-decoration: none;
     color:white;
     font-size: 20px;
 
 }
-    
+
 ul{
     list-style:none; 
 }
@@ -26,5 +26,35 @@ li{
 
 #signup{
     position:absolute;
+    right:80px;
+} */
+
+
+
+*{
+    margin:0px;
+    padding:0px;
+}
+nav{
+    background-color: rgb(11, 19, 19);
+    width:100%;
+    position: fixed;
+    top:0px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+li{
+    display:inline-block;
+    margin:20px;
+    padding:5px;
+}
+#signup{
+    position: absolute;
     right:80px;
 }

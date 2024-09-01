@@ -13,6 +13,9 @@ section{
     letter-spacing: 0.12em;
     line-height: 1.4rem;
     height: 70vh;
+    overflow-y: hidden;
+}
+section:hover{
     overflow-y: scroll;
 }
 

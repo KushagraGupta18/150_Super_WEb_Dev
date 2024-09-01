@@ -7,7 +7,7 @@
     <title>Assignment1</title>
 </head>
 <body>
-    <h1>Class X Time Table</h1>
+    <!-- <h1>Class X Time Table</h1>
     <table border="5" bgcolor="lightgrey" cellspacing="10" cellpadding="10">
         <thead>
             <tr>
@@ -73,6 +73,77 @@
                 <th colspan="10">This is Class X Time Table</th>
             </tr>
         </tfoot>
+    </table> -->
+
+    <h1>HTML Tables</h1>
+    <table bgcolor="lightgrey" border="5" cellspacing="10" cellpadding="10">
+        <thead>
+            <tr>
+                <th>Day/Period</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th></th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mon</td>
+                <td rowspan="2">SST</td>
+                <td>Yog</td>
+                <td rowspan="3">Sans</td>
+                <td>Com</td>
+                <td rowspan="6">Lun</td>
+                <td rowspan="6">Eng</td>
+                <td rowspan="6">Hin</td>
+                <td rowspan="6">Sci</td>
+                <td rowspan="4">Math</td>
+            </tr>
+            <tr>
+                <td>Tue</td>
+                <td>Com</td>
+                <td rowspan="2">Mat</td>
+            </tr>
+
+            <tr>
+                <td>Wed</td>
+                <td>MPT</td>
+                <td>Ger</td>
+
+            </tr>
+            
+            <tr>
+                <td>Thu</td>
+                <td rowspan="2">SST</td>
+                <td colspan="2">Gam</td>
+                <td>Art</td>
+            </tr>
+            <tr>
+                <td>Fri</td>
+                <td>Ger</td>
+                <td>Supw</td>
+                <td rowspan="2">Mat</td>
+                <td>Lib</td>
+            </tr>
+            <tr>
+                <td>Sat</td>
+                <td colspan="2">CCA</td>
+                <td>Art</td>
+                <td>SST</td>
+            </tr>
+            
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="10">This is Class X time table</th>
+            </tr>
+        </tfoot>
+
     </table>
     <br>
     <br>
@@ -80,7 +151,7 @@
     <br>
     <br>
     <h1>Forms</h1>
-    <form>
+    <!-- <form>
         <fieldset>
             <legend>Personal Details</legend>
             <label for="Salutation">Salutation</label>
@@ -126,7 +197,44 @@
             <button>Submit</button>
         </fieldset>
         
-    </form>
+    </form> -->
 
+
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="salute">Salutation:</label>
+            <select id="salute" required>
+                <option>--None--</option>
+                <option>Mr.</option>
+                <option>Ms.</option>
+                <option>Mrs.</option>
+                <option>Dr.</option>
+                <option>Pro.</option>
+            </select>
+            <br><br>
+            <label for="firstname1">First Name:</label>
+            <input type="text" id="firstname1" required>
+            <br><br>
+            <label for="lastname1">Last Name:</label>
+            <input type="text" id="lastname1"  disabled>
+            <br><br>
+            <label for="gen">Gender:</label>
+            <input type="radio" name="gender" id="gen" required>Male
+            <input type="radio" name="gender" id="gen" required>FeMale
+            <br><br>
+            <label for="email1">Email:</label>
+            <input type="email" name="email" id="email1" required>
+            <br><br>
+            <label for="dob1">Date Of Birth:</label>
+            <input type="date" name="dob1" id="dob1" required>
+            <br><br>
+            <label for="add">Address:</label><br>
+            <textarea rows="5" cols="30" id="add" required>
+            </textarea>
+            <br><br>
+            <button>Submit</button>
+        </fieldset>
+    </form>
 </body>
 </html>
